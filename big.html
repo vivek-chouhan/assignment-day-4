@@ -1,0 +1,37 @@
+<html>
+<head>find the biggest <br></head>
+<title>doc</title>
+<body>
+<input id=i1 /><br>
+<input id=i2 /><br>
+<input id=i3 /><br>
+<input type=button id =b value=getbiggest onclick=find() /><br>
+<div id=d1></div>
+<script>
+
+function find(){
+a=parseInt(i1.value)
+b=parseInt(i2.value)
+c=parseInt(i3.value)
+if(a>b || a>c)
+ d=a
+else if (b>a || b>c)
+ d=b
+else (c>a || c>b)
+
+ d=c
+
+
+d1.innerHTML= "THE biggest number is :" +d
+
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
